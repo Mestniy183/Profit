@@ -1,0 +1,141 @@
+.join__title {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--black);
+    max-width: 690px;
+    margin: 0 auto 24px;
+}
+
+.join__wrapper {
+    padding-top: 49px;
+    padding-bottom: 50px;
+}
+
+
+.join__text {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--black);
+    max-width: 580px;
+    margin: 24px auto 32px;
+}
+
+.join__img {
+    margin-bottom: 32px;
+    border-radius: 40px
+}
+
+.join__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 18px;
+}
+
+.join__item {
+    border-radius: 24px;
+    padding: 16px 24px;
+    background: var(--white);
+    flex: 1;
+    text-align: center;
+}
+
+.join__item-title {
+    font-weight: 700;
+    font-size: clamp(1.75rem, 1.6735rem + 0.3265vw, 2rem);
+    text-transform: capitalize;
+    color: var(--pink);
+    margin-bottom: 8px;
+}
+
+.join__item-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.join__attention {
+    border-radius: 16px;
+    padding: 8px 8px 8px 24px;
+    background: var(--yellow);
+    display: flex;
+}
+
+.join__attention-wrapper {
+    border-radius: 12px;
+    padding: 12px;
+    background: var(--black);
+    max-width: 506px;
+}
+
+.join__attention-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 130%;
+    color: var(--black);
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.join__attention-title::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--black);
+    display: block;
+    margin: 0 40px;
+}
+
+.join__attention-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: right;
+    color: var(--white);
+}
+
+@media(max-width: 768px) {
+    .join__items {
+        flex-direction: column;
+        gap: 13px;
+        margin-bottom: 32px;
+    }
+    .join__attention-title::after {
+        display: none;
+    }
+    .join__attention {
+        flex-direction: column;
+        padding: 8px;
+        align-items: center;
+        gap: 16px;
+    }
+    .join__attention-wrapper {
+        max-width: none;
+        width: 100%;
+    }
+    .join__attention-text {
+        text-align: center;
+    }
+    .join__title {
+        font-size: 32px;
+    }
+    .join__wrapper {
+        padding-top: 18px;
+    }
+    .join__img {
+        border-radius: 32px;
+    }
+    .join__attention-text {
+        font-size: 14px;
+    }
+}
+
+

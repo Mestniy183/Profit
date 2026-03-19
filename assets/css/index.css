@@ -1,0 +1,12 @@
+@import './normalize.css';
+@import './fonts.css';
+@import './variables.css';
+@import './base.css';
+@import './blocks/header.css';
+@import './blocks/join.css';
+@import './blocks/steps.css';
+@import './blocks/choose-path.css';
+@import './blocks/leaders.css';
+@import './blocks/advantages.css';
+@import './blocks/feedback.css';
+@import './blocks/policy.css';
