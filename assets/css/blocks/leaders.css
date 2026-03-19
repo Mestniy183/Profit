@@ -1,5 +1,4 @@
-.leaders
- {
+.leaders {
     padding-top: 60px;
     padding-bottom: 60px;
     background: #f0f0f0;
@@ -138,6 +137,7 @@
     .leader__content {
         min-height: 320px;
     }
+
     .leader__item {
         flex-direction: column;
     }
@@ -147,26 +147,33 @@
     .leaders__title {
         font-size: 32px;
     }
+
     .leaders__items {
         flex-direction: column;
     }
+
     .leader__item {
         gap: 8px;
     }
+
     .leader__profit {
         font-size: 28px;
         margin-bottom: 20px;
     }
+
     .leader__image {
         width: 100%;
     }
+
     .leader__description {
         font-size: 16px;
     }
+
     .leader__item:nth-child(2) .leader__profit,
     .leader__item:nth-child(3) .leader__profit {
         margin-bottom: 32px;
     }
+
     .leader__item:nth-child(3) {
         margin-top: -27px;
     }
